@@ -21,9 +21,10 @@ async def hello(ctx):
 @bot.event
 async def on_button_click(interaction):
     if interaction.component.label == "Tıkla":
-        await interaction.respond(content="Butona tıklandı!", ephemeral=True)
-
-e8dedb3a448a2f0d22bdf259b6d93f9666542b2456bc99eb36b75939d3c6b87a
+        await interaction.respond(content="Butona tıklandı!", ephemeral=True) 
+MTEwNjY0NTE1MTc5Mjc3NTE2OA.G9QZ-U.irCXvSoLttdZwaDS9ybfUwg5kVyQaICAw65GPE
 bot.run("YOUR_BOT_TOKEN") pip install discord.py
+pip install discord.py
 pip install discord-components
+
 
